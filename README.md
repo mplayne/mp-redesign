@@ -1,3 +1,14 @@
+Progress so far:
+Project created
+Components named
+
+Navbar - Complete
+Video - Complete
+Card Group - Complete
+Upcoming Shows *
+Email Capture Form *
+Footer - Created but without content*
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
