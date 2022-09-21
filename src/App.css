@@ -60,7 +60,7 @@ main {
   }
 
   .video-container{
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -113,4 +113,23 @@ main {
 
 .big:hover{
 transform: scale(1) !important;
+}
+
+ul {
+  list-style-type: none !important;
+}
+
+.center-list{
+  flex-wrap: wrap;
+margin-right: 2rem; 
+}
+
+.show-text{
+ color:#282c34 !important;
+}
+
+.show-text:hover{
+  font-size: 17px;
+  background: #18121E;
+  color:#984B43 !important;
 }
