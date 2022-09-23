@@ -2,15 +2,16 @@
 import './App.css';
 import React from "react";
 //components
-import BookingCards from "./components/BookingCards";
-import EmailCaptureForm from "./components/EmailCaptureForm";
-import Footer from "./components/Footer";
-import Navigation from "./components/Navigation";
-import UpcomingShows from "./components/UpcomingShows";
-import Video from "./components/Video";
-import Container from 'react-bootstrap/Container';
+import Home from "./components/Home";
+import Booking from "./components/booking"
+
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
+
+
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from './components/Layout';
+
 
 <link
   rel="stylesheet"
@@ -19,19 +20,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
   crossorigin="anonymous"
 />
 
+
 export default function App() {
   return (
-    <main>
-        <Navigation />
-      <Container>
-      <Video />
-      <BookingCards />
-      <UpcomingShows />
-      <EmailCaptureForm />
-      </Container>
-      <Footer />
-   
-      
-    </main>
+   <main>
+     <Layout>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/booking" element={<Booking />} />
+        </Routes>
+      </Layout>
+</main>
   )
 }
