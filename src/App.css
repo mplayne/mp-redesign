@@ -73,18 +73,25 @@ main {
   iframe {
     border-radius: 50px;
     border: solid #18121E !important;
+  
+  }
+  .if-spinner{
+    background-image: url("/public/images/Spinner2.gif");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    
   }
 
   .footer {
-    position: fixed;
+
     width: 100%;
     bottom: 0;
-  margin-top: 1rem;
+  margin-top: 3rem;
   padding: 1rem;
   background-color: #233237;
   width: 100%;
   color: white;
-  height: auto;
+
   }
 
   .card-img {
