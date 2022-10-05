@@ -11,21 +11,21 @@ export default function BookingCards() {
       
             <Card className="text-center rounded card-bg" text="light">
             <Card.Img className="card-img" variant="top" src="/images/live.jpg" />
-            <Card.Body>
+            <Card.Body className="d-flex align-items-center justify-content-center">
               <a href="/" className="stretched-link text-decoration-none card-text"><Card.Title >Private Events</Card.Title></a>
             </Card.Body>
           </Card>
 
           <Card className="text-center rounded card-bg" text="light" >
             <Card.Img className="card-img" variant="top" src="/images/cafe.jpg" />
-            <Card.Body>
+            <Card.Body className="d-flex align-items-center justify-content-center">
             <a href="/" className="stretched-link text-decoration-none card-text">
-              <Card.Title>Bars/Restaurants/Coffee Shops</Card.Title></a>
+              <Card.Title>Bars &middot; Restaurants &middot; Cafes</Card.Title></a>
             </Card.Body>
           </Card>
           <Card className="text-center rounded card-bg" text="light">
             <Card.Img className="card-img" variant="top" src="/images/wedding.jpg" />
-            <Card.Body className="card-body">
+            <Card.Body className="d-flex align-items-center justify-content-center">
             <a href="/" className="stretched-link text-decoration-none card-text">
               <Card.Title className="big">Weddings</Card.Title></a>
             </Card.Body>
