@@ -119,31 +119,30 @@ main {
   color: white;
 
   }
-
+  .card-bg {
+    background: none !important;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+   border-radius: 20px !important;
+   }
   .card-img {
     width: 100%;
     object-fit: cover;
     aspect-ratio: 4/3;
-    border-radius: 20px 20px 0 0 !important;
+    border-radius: 10px 10px 0 0 !important;
+    border: none !important;
   }
 
   .card-body {
     background-color: #984B43;
-    border-radius: 0 0 20px 20px !important;
-   
+    border-radius:  0 0 10px 10px !important;
   }
-
-  .card-bg {
-   background: #F5F5F5 !important;
-   border: none !important;
-   transition: .2s ease-in-out;
-   cursor: pointer;
-   border: none !important;
-  }
+  
 
   .card-bg:hover{
    transform: scale(1.05);
-   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
    border-radius: 20px !important;
   }
   .card-text{
