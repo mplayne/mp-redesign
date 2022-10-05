@@ -4,6 +4,7 @@ import React from "react";
 //components
 import Home from "./components/Home";
 import Booking from "./components/booking"
+import Contact from "./components/contact"
 
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
@@ -28,6 +29,7 @@ export default function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/booking" element={<Booking />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
 </main>

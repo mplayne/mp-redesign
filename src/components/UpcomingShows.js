@@ -1,10 +1,10 @@
+import { Container } from "react-bootstrap";
 
 
 export default function UpcomingShows() {
     return(
-        <section>
-            <hr />
-            <h2 className="text-center mb-4">Upcoming Shows</h2>
+        <Container className="upcoming-shows">
+            <h3 className="text-center mb-4">Upcoming Shows</h3>
             <a className="text-decoration-none show-text" href="/">
                 <ul className="center-list d-flex justify-content-between">
                     <li>01/21/2023</li>
@@ -27,6 +27,6 @@ export default function UpcomingShows() {
                 </ul>
                 </a>
             <hr />
-         </section>
+         </Container>
     )
 }

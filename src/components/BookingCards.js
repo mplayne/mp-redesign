@@ -5,9 +5,9 @@ import Container from 'react-bootstrap/Container';
 
 export default function BookingCards() {
     return (
-        <Container>
-            <h1 className="d-flex justify-content-center mt-3">Book The Best In Town</h1>
-        <CardGroup className="gap-3 mt-3" >
+        <Container className="booking-cards">
+            <h1 className="d-flex justify-content-center ">Book The Best In Town</h1>
+        <CardGroup className="gap-3 mt-4" >
       
             <Card className="text-center rounded card-bg" text="light">
             <Card.Img className="card-img" variant="top" src="/images/live.jpg" />
