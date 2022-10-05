@@ -25,7 +25,7 @@ export default function BookingCards() {
           </Card>
           <Card className="text-center rounded card-bg" text="light">
             <Card.Img className="card-img" variant="top" src="/images/wedding.jpg" />
-            <Card.Body className="d-flex align-items-center justify-content-center">
+            <Card.Body className="card-body">
             <a href="/" className="stretched-link text-decoration-none card-text">
               <Card.Title className="big">Weddings</Card.Title></a>
             </Card.Body>
