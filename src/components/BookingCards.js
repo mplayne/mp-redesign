@@ -5,7 +5,9 @@ import Container from "react-bootstrap/Container";
 export default function BookingCards() {
   return (
     <Container className="booking-cards">
-      <h1 className="d-flex justify-content-center ">Book The Best In Town</h1>
+      <h2 className="d-flex justify-content-center booking-banner mb-5">
+        Book The Best In Town
+      </h2>
       <CardGroup className="gap-4 mt-4">
         <Card className="text-center card-bg" text="light">
           <Card.Img className="card-img" variant="top" src="/images/live.jpg" />
@@ -14,7 +16,7 @@ export default function BookingCards() {
               href="/booking"
               className="stretched-link text-decoration-none card-text"
             >
-              <Card.Title>Private Events</Card.Title>
+              <Card.Title className="card-titles">Private Events</Card.Title>
             </a>
           </Card.Body>
         </Card>

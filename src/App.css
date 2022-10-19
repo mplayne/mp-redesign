@@ -2,43 +2,63 @@ html {
   height: 100% !important;
 }
 
+@font-face {
+  font-family: "sisteron";
+  src: url("./fonts/sisteron/TTF/Sisteron-Regular.ttf");
+}
+
 .color-nav {
   background-color: #233237;
 }
 
 .nav-hover {
-  color: white !important;
-  font-family: "Poppins", sans-serif;
+  color: #fefcf2 !important;
+  font-family: "Poppins";
   text-transform: uppercase;
-  font-size: 14px !important;
-  font-weight: 400;
+  font-size: 16px !important;
+  font-weight: 700 !important;
   letter-spacing: 8px;
-  margin-left: 1rem !important;
+  margin-left: 1em;
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0) !important;
+  transition: ease-out text-decoration-color 800ms !important;
 }
 
 .nav-hover:hover {
-  color: #eac67a !important;
+  color: #f4eddd !important;
+  text-decoration-color: rgba(244, 237, 221, 1) !important;
 }
 
 .nav-logo {
-  font-family: "Alegreya", serif;
-  font-size: 30px !important;
+  font-weight: 900 !important;
+  font-family: "sisteron";
+  font-size: 24px !important;
+  letter-spacing: 0.2em;
+  color: #f4eddd !important;
+}
+
+.booking-banner {
+  font-family: "sisteron", sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Alegreya", serif;
   color: #233237;
-  border-bottom: solid #233237;
 }
 
 .booking-cards {
-  margin-top: 3em !important;
+  margin-top: 4em !important;
 }
+
 .book-btn {
   text-decoration: none !important;
   color: #233237 !important;
+  font-family: "Poppins";
+  font-weight: 400 !important;
 }
 
 .App {
@@ -66,29 +86,31 @@ h3 {
 }
 
 main {
-  background: #f5f5f5;
+  /* background: #f5f5f5; */
+  background: #fefcf2;
 }
 
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   min-height: 100% !important;
+  background-color: !important;
 }
 
 .fb-icon {
-  color: #f5f5f5;
+  color: #fefcf2;
   margin: 1rem;
 }
 
 .insta-icon {
-  color: #f5f5f5;
+  color: #fefcf2;
   margin: 1rem;
 }
 
 .insta-icon:hover {
-  color: #eac67a;
+  color: #f4eddd;
 }
 .fb-icon:hover {
-  color: #eac67a;
+  color: #f4eddd;
 }
 
 .video-container {
@@ -99,7 +121,7 @@ body {
 }
 
 iframe {
-  border-radius: 50px;
+  border-radius: 20px;
   border: solid #18121e !important;
 }
 .if-spinner {
@@ -149,10 +171,13 @@ iframe {
 }
 .card-text {
   color: #f5f5f5 !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+  font-family: "Poppins" !important;
 }
 
 .card-text:hover {
-  color: #eac67a !important;
+  color: #f4eddd !important;
 }
 
 ul {
@@ -160,7 +185,14 @@ ul {
 }
 
 .upcoming-shows {
-  margin-top: 3em !important;
+  margin-top: 4em !important;
+  font-style: italic;
+  text-decoration: underline;
+}
+.shows-banner {
+  font-family: "sisteron", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 .center-list {
   flex-wrap: wrap;

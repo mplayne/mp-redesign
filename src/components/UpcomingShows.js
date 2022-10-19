@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 export default function UpcomingShows() {
   return (
     <Container className="upcoming-shows">
-      <h3 className="text-center mb-4">Upcoming Shows</h3>
+      <h3 className="text-center mb-4 shows-banner">Upcoming Shows</h3>
       <div className="d-flex justify-content-center">
         <Button
           className="text-center d-flex align-item-center"
