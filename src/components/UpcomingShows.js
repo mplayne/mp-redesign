@@ -1,10 +1,19 @@
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 export default function UpcomingShows() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Container className="upcoming-shows">
-      <h3 className="text-center mb-4 shows-banner">Upcoming Shows</h3>
+      <h3 data-aos="zoom-in" className="text-center mb-4 shows-banner">
+        Upcoming Shows
+      </h3>
+
       <div className="d-flex justify-content-center">
         <Button
           className="text-center d-flex align-item-center"
