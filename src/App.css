@@ -40,8 +40,9 @@ html {
   font-family: rift, sans-serif;
   font-weight: 300;
   font-style: italic;
-  text-decoration: underline;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 44px;
 }
 
 h1,
@@ -51,7 +52,7 @@ h3 {
 }
 
 .booking-cards {
-  margin-top: 4em !important;
+  margin-top: 3em !important;
 }
 
 .book-btn {
@@ -114,7 +115,6 @@ body {
 
 .video-container {
   padding-top: 3em;
-  padding-bottom: 5%;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -139,6 +139,7 @@ iframe {
   width: 100%;
   color: white;
 }
+
 .card-bg {
   background: none !important;
   transition: 0.2s ease-in-out;
@@ -187,7 +188,6 @@ ul {
 .upcoming-shows {
   margin-top: 4em !important;
   font-style: italic;
-  text-decoration: underline;
 }
 .shows-banner {
   font-family: rift, sans-serif;
@@ -195,6 +195,7 @@ ul {
   font-style: italic;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  font-size: 36px;
 }
 .center-list {
   flex-wrap: wrap;
@@ -202,7 +203,6 @@ ul {
 }
 
 .center-list:hover {
-  border-top: solid black;
   border-bottom: solid black;
   border-color: #eac67a;
 }

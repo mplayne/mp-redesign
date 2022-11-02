@@ -18,7 +18,7 @@ export default function BookingCards() {
       >
         Book The Best In Town
       </h2>
-      <CardGroup className="gap-4 mt-4">
+      <CardGroup className="gap-4 d-flex justify-content-center">
         <Card
           data-aos="fade-right"
           data-aos-duration="1000"
