@@ -12,11 +12,11 @@ export default function BookingCards() {
   return (
     <Container className="booking-cards">
       <h2
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-duration="800"
         className="d-flex justify-content-center booking-banner mb-5"
       >
-        Book The Best In Town
+        Elevate your event with Live Music
       </h2>
       <CardGroup className="gap-4 d-flex justify-content-center">
         <Card
@@ -48,7 +48,9 @@ export default function BookingCards() {
               href="/booking"
               className="stretched-link text-decoration-none card-text"
             >
-              <Card.Title>Bars &middot; Restaurants &middot; Cafes</Card.Title>
+              <Card.Title className="card-titles">
+                Bars &middot; Restaurants &middot; Cafes
+              </Card.Title>
             </a>
           </Card.Body>
         </Card>
@@ -68,7 +70,7 @@ export default function BookingCards() {
               href="/booking"
               className="stretched-link text-decoration-none card-text"
             >
-              <Card.Title>Weddings</Card.Title>
+              <Card.Title className="card-titles">Weddings</Card.Title>
             </a>
           </Card.Body>
         </Card>

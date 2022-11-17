@@ -6,7 +6,7 @@ import { BsInstagram } from "react-icons/bs";
 
 export default function Navigation() {
   return (
-    <Navbar className="color-nav" expand="lg" variant="dark">
+    <Navbar className="color-nav" expand="lg" variant="light">
       <Container>
         <Navbar.Brand className="nav-logo" href="/">
           MATT

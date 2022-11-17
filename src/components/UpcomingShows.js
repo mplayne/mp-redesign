@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
@@ -10,9 +9,12 @@ export default function UpcomingShows() {
   }, []);
   return (
     <Container className="upcoming-shows">
-      <h3 data-aos="zoom-in" className="text-center mb-4 shows-banner">
+      <h2
+        data-aos="fade-right"
+        className="d-flex justify-content-center mb-4 shows-banner"
+      >
         Upcoming Shows
-      </h3>
+      </h2>
       {/* Individual Show List Item */}
 
       <a className="text-decoration-none show-text" href="/">

@@ -1,3 +1,9 @@
+/*Color Pallet
+Nav Links => #3c5258
+Logo => #233237
+- 
+*/
+
 html {
   height: 100% !important;
 }
@@ -8,24 +14,42 @@ html {
 }
 
 .color-nav {
-  background-color: #233237;
+  color: #f5e6bb !important;
 }
 
 .nav-hover {
-  color: #fefcf2 !important;
+  color: #3c5258 !important;
   font-family: "Poppins";
   text-transform: uppercase;
   font-size: 16px !important;
   font-weight: 700 !important;
   letter-spacing: 8px;
   margin-left: 1em;
-  text-decoration: underline 0.15em rgba(0, 0, 0, 0) !important;
-  transition: ease-out text-decoration-color 800ms !important;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-hover:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 300px;
+  height: 0.1em;
+  bottom: 0;
+  left: 0;
+  background: currentcolor;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: right left;
 }
 
 .nav-hover:hover {
-  color: #f4eddd !important;
-  text-decoration-color: rgba(244, 237, 221, 1) !important;
+  color: #233237 !important;
 }
 
 .nav-logo {
@@ -33,22 +57,46 @@ html {
   font-family: "sisteron";
   font-size: 24px !important;
   letter-spacing: 0.2em;
-  color: #f4eddd !important;
+  color: #233237 !important;
 }
 
+.nav-logo:hover {
+  color: #3c5258 !important;
+}
 .booking-banner {
-  font-family: rift, sans-serif;
-  font-weight: 300;
+  font-family: highgate, sans-serif;
+  font-weight: 700;
   font-style: italic;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 44px;
+}
+
+.booking-btn {
+  background-color: #00504b !important;
+  color: white !important;
+  border: none !important;
+  transition: background-color 0.5s !important;
+  text-transform: uppercase;
+}
+
+.booking-btn:hover {
+  background-color: #207a73 !important;
+}
+
+.booking-btn:active {
+  opacity: 90%;
 }
 
 h1,
 h2,
 h3 {
   color: #233237;
+}
+.btn-reduce {
+  border: none !important;
+  background-color: #984b43 !important;
+  margin-top: 2rem;
+  width: 35%;
 }
 
 .booking-cards {
@@ -88,29 +136,29 @@ h3 {
 
 main {
   /* background: #f5f5f5; */
-  background: #fefcf2;
+  background: linear-gradient(#f4eddd 75%, #00504a);
 }
 
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  min-height: 100% !important;
+  height: 100vh;
 }
 
 .fb-icon {
-  color: #fefcf2;
+  color: #233237;
   margin: 1rem;
 }
 
 .insta-icon {
-  color: #fefcf2;
+  color: #233237;
   margin: 1rem;
 }
 
 .insta-icon:hover {
-  color: #f4eddd;
+  color: #3c5258;
 }
 .fb-icon:hover {
-  color: #f4eddd;
+  color: #3c5258;
 }
 
 .video-container {
@@ -122,7 +170,7 @@ body {
 
 iframe {
   border-radius: 20px;
-  border: solid #18121e !important;
+  border: solid #282c34 !important;
 }
 .if-spinner {
   background-image: url("/public/images/Spinner2.gif");
@@ -170,15 +218,11 @@ iframe {
   border-radius: 10px !important;
   border: none !important;
 }
-.card-text {
-  color: #f5f5f5 !important;
-  font-weight: 400 !important;
-  text-transform: uppercase;
-  font-family: "Poppins" !important;
-}
 
-.card-text:hover {
-  color: #f4eddd !important;
+.card-titles {
+  font-family: highgate, sans-serif;
+  font-weight: 400;
+  color: white;
 }
 
 ul {
@@ -187,31 +231,45 @@ ul {
 
 .upcoming-shows {
   margin-top: 4em !important;
-  font-style: italic;
 }
 .shows-banner {
-  font-family: rift, sans-serif;
-  font-weight: 300;
+  font-family: highgate, sans-serif;
+  font-weight: 700;
   font-style: italic;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 36px;
 }
 .center-list {
   flex-wrap: wrap;
   margin-right: 2rem;
-}
-
-.center-list:hover {
-  border-bottom: solid black;
-  border-color: #eac67a;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
 }
 
 .show-text {
-  color: #7b869c !important;
+  color: #556c72 !important;
+  font-size: 18px !important;
+}
+.center-list:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 300px;
+  height: 0.1em;
+  bottom: 0;
+  left: 0;
+  background: currentcolor;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
 }
 
-.show-text:hover {
-  background: #18121e;
+.center-list:hover::after {
+  transform: scaleX(1);
+  transform-origin: right left;
+}
+
+.center-list:hover {
   color: #233237 !important;
 }
