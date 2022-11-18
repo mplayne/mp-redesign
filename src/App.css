@@ -10,7 +10,7 @@ main {
 
 html,
 body {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Vollkorn", serif !important;
   height: 100%;
 }
 .contact-section {
@@ -48,6 +48,7 @@ body {
 
 .contact-text {
   color: #233237;
+  font-family: "Vollkorn", serif;
 }
 .contact-text:hover {
   color: #3c5258;
@@ -114,6 +115,8 @@ body {
   border: none !important;
   transition: background-color 0.5s !important;
   text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Poppins" !important;
 }
 
 .booking-btn:hover {
@@ -188,6 +191,26 @@ h3 {
   color: #3c5258;
 }
 
+.fb-icon-foot {
+  color: #f5f5f5;
+  padding: 2px;
+}
+
+.insta-icon-foot {
+  color: #f5f5f5;
+  padding: 2px;
+}
+
+.fb-icon-foot:hover {
+  color: #3c5258 !important;
+  cursor: pointer;
+}
+
+.insta-icon-foot:hover {
+  color: #3c5258 !important;
+  cursor: pointer;
+}
+
 .video-container {
   padding-top: 3em;
   display: flex;
@@ -208,11 +231,30 @@ iframe {
 .footer {
   width: 100%;
   bottom: 0;
-  margin-top: 3rem;
-  padding: 1rem;
   background-color: #233237;
-  width: 100%;
   color: white;
+  font-size: 12px;
+}
+
+.contact-footer {
+  text-decoration: none;
+  color: #f5f5f5;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  text-decoration: none;
+  color: #f5f5f5;
+  text-transform: uppercase;
+}
+
+.rights-text {
+  color: #f5f5f5;
+  text-transform: uppercase;
+}
+
+.footer-text:hover {
+  color: #3c5258 !important;
 }
 
 .card-bg {
@@ -257,21 +299,23 @@ ul {
 }
 
 .upcoming-shows {
-  margin-top: 4em !important;
+  padding-top: 6em !important;
+  margin-bottom: 6em !important;
 }
 .shows-banner {
-  font-family: highgate, sans-serif;
+  font-family: poppins, sans-serif;
   font-weight: 700;
-  font-style: italic;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 .center-list {
+  font-family: "Vollkorn", serif;
   flex-wrap: wrap;
   margin-right: 2rem;
   text-decoration: none;
   display: inline-block;
   position: relative;
+  font-style: italic;
 }
 
 .show-text {

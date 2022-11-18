@@ -22,13 +22,9 @@ export default function Video() {
           allowfullscreen
         ></iframe>
       </div>
-      <Container className="mt-4">
+      <Container className="mt-5">
         <Row>
-          <div
-            data-aos="zoom-in"
-            data-aos-duration="800"
-            className="mt-2 d-flex justify-content-center"
-          >
+          <div className="mt-2 d-flex justify-content-center">
             <Button
               className="btn booking-btn rounded-pill col-6"
               href="/booking"

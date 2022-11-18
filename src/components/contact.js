@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <Container>
       <div className="m-4">
-        <h1>Get In Touch</h1>
+        <h2 className="shows-banner">GET IN TOUCH</h2>
         <hr width="25%"></hr>
         <div className="d-flex">
           <MailIcon />
