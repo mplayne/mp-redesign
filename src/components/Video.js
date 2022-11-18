@@ -29,7 +29,10 @@ export default function Video() {
             data-aos-duration="800"
             className="mt-2 d-flex justify-content-center"
           >
-            <Button className="btn booking-btn rounded-pill col-6 ">
+            <Button
+              className="btn booking-btn rounded-pill col-6"
+              href="/booking"
+            >
               <b>Book Live Music</b>
             </Button>
           </div>

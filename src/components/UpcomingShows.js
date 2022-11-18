@@ -16,14 +16,15 @@ export default function UpcomingShows() {
         Upcoming Shows
       </h2>
       {/* Individual Show List Item */}
-
-      <a className="text-decoration-none show-text" href="/">
-        <ul className="center-list d-flex justify-content-between">
-          <li>01/21/2023</li>
-          <li>Midland Public Library</li>
-          <li>Midland,ON</li>
-        </ul>
-      </a>
+      <div className="m-5">
+        <a className="text-decoration-none show-text " href="/">
+          <ul className="center-list d-flex justify-content-between">
+            <li>01/21/2023</li>
+            <li>Midland Public Library</li>
+            <li>Midland,ON</li>
+          </ul>
+        </a>
+      </div>
     </Container>
   );
 }
