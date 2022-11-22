@@ -315,7 +315,6 @@ ul {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  font-style: italic;
 }
 
 .show-text {
@@ -346,5 +345,8 @@ ul {
 }
 
 .contact-form {
+  border: none !important;
+}
+.footer-register {
   border: none !important;
 }
