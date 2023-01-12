@@ -35,7 +35,7 @@ export default function Video() {
         </Row>
         <Row data-aos="fade-left" data-aos-duration="800" className="mt-2">
           <div className="text-center">
-            <small>Dates Available 2022/2023</small>
+            <small>Dates Available 2023</small>
           </div>
         </Row>
       </Container>
