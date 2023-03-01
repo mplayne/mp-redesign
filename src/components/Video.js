@@ -22,11 +22,11 @@ export default function Video() {
           allowfullscreen
         ></iframe>
       </div>
-      <Container className="mt-5">
+      <Container className="booking-btn-container">
         <Row>
           <div className="mt-2 d-flex justify-content-center">
             <Button
-              className="btn booking-btn rounded-pill col-6"
+              className="btn-lg  booking-btn rounded-pill "
               href="/booking"
             >
               <b>Book Live Music</b>
