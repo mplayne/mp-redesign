@@ -19,7 +19,7 @@ function Banner() {
       <Row className="d-flex justify-content-center text-center m-2">
         <Col>
           <div data-aos="fade-up" data-aos-duration="3000">
-            Singer Songwriter
+            Singer-Songwriter
           </div>
         </Col>
       </Row>
