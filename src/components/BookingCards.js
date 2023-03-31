@@ -28,7 +28,7 @@ export default function BookingCards() {
           <Card.Img className="card-img" variant="top" src="/images/live.jpg" />
           <Card.Body className="d-flex align-items-center justify-content-center">
             <a
-              href="/booking"
+              href="/Booking"
               className="stretched-link text-decoration-none card-text"
             >
               <Card.Title className="card-titles">Private Events</Card.Title>
@@ -45,7 +45,7 @@ export default function BookingCards() {
           <Card.Img className="card-img" variant="top" src="/images/cafe.jpg" />
           <Card.Body className="d-flex align-items-center justify-content-center">
             <a
-              href="/booking"
+              href="/Booking"
               className="stretched-link text-decoration-none card-text"
             >
               <Card.Title className="card-titles">
