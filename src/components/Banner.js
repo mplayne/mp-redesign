@@ -8,7 +8,7 @@ function Banner() {
     AOS.init();
   }, []);
   return (
-    <Container className="banner-text shows-section">
+    <Container className="banner-text">
       <Row className="text-center m-2">
         <Col>
           <div data-aos="fade-down" data-aos-duration="3000">
