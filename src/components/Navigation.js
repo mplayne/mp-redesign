@@ -34,7 +34,7 @@ export default function Navigation() {
             {isHomePage ? (
               <Nav.Link
                 className="nav-hover"
-                href="#shows-section"
+                href="#previous-shows-section"
                 onClick={handleSmoothScroll}
               >
                 Shows

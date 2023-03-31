@@ -15,6 +15,11 @@ body {
   font-family: "Vollkorn", serif !important;
   height: 100%;
 }
+
+.carousel-indicators {
+  top: 22rem !important;
+}
+
 .contact-section {
   width: 50%;
 }
@@ -226,11 +231,29 @@ h3 {
 
 .shows-video-container {
   padding-top: 1em;
+  padding-left: 3rem;
+  padding-right: 3rem;
   display: flex;
   justify-content: center;
-  overflow: hidden;
+}
+.shows-wrapper {
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
+.recent-shows-header {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.show-one,
+.show-two,
+.show-three {
+  margin-bottom: 80px;
+}
+
+.upcoming-shows-section {
+  margin-top: 40px;
+}
 iframe {
   border-radius: 20px;
   border: solid #282c34 !important;

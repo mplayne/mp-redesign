@@ -1,9 +1,9 @@
 import "./App.css";
 import React from "react";
 //components
-import Home from "./components/Home";
-import Booking from "./components/booking";
-import Contact from "./components/contact";
+import Home from "./pages/Home";
+import Booking from "./pages/Booking";
+import Contact from "./pages/Contact";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 

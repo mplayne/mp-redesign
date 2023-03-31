@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import MailIcon from "./MailIcon";
-import PhoneIcon from "./PhoneIcon";
+import MailIcon from "../components/MailIcon";
+import PhoneIcon from "../components/PhoneIcon";
 
 export default function Contact() {
   return (
