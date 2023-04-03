@@ -15,7 +15,7 @@ export default function Home() {
         <Banner />
       </div>
       <FeatureVideo />
-      <div id="previous-shows-section">
+      <div id="recent-shows-section">
         <div className="recent-shows-header">
           <RecentShows />
         </div>
@@ -29,7 +29,7 @@ export default function Home() {
           <LeitchsShow />
         </div>
       </div>
-      <div className="upcoming-shows-section">
+      <div id="upcoming-shows-section">
         <UpcomingShows />
       </div>
     </Container>
