@@ -27,7 +27,7 @@ export default function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/booking" element={<Booking />} />
           <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/contact" element={<AboutMe />} />
+          <Route exact path="/about" element={<AboutMe />} />
         </Routes>
       </Layout>
     </main>
