@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
@@ -21,43 +21,38 @@ export default function UpcomingShows() {
         </Col>
       </Row>
 
-      {/* Individual Show List Item 
       <div className="m-5">
-<a className="text-decoration-none show-text " href="/">
-  <ul className="center-list d-flex justify-content-between">
-    <li>01/21/2023</li>
-    <li>Midland Public Library</li>
-    <li>Midland,ON</li>
-  </ul>
-</a>
-</div>
-      */}
-      <Row>
-        <Col className="d-flex justify-content-center">
-          <h5>Private Events | Bars & Restaurants | Weddings </h5>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <Container className="booking-btn-container">
-            <Row>
-              <div className="mt-2 d-flex justify-content-center">
-                <Button
-                  className="btn-lg  booking-btn rounded-pill "
-                  href="/booking"
-                >
-                  <b>Book Your Next Event</b>
-                </Button>
-              </div>
-            </Row>
-            <Row data-aos="fade-left" data-aos-duration="800" className="mt-2">
-              <div className="text-center">
-                <small>Dates Available 2023</small>
-              </div>
-            </Row>
-          </Container>
-        </Col>
-      </Row>
+        <a
+          className="text-decoration-none show-text "
+          href="https://www.facebook.com/EventHorizonHobbiesCA"
+        >
+          <ul className="center-list d-flex justify-content-between">
+            <li>05/12/2023</li>
+            <li>Event Horizon Hobbies | Midland,ON </li>
+            <li>7:00pm-9:00pm</li>
+          </ul>
+        </a>
+        <a
+          className="text-decoration-none show-text "
+          href="https://www.midlandculturalcentre.com/events"
+        >
+          <ul className="center-list d-flex justify-content-between mt-3">
+            <li>05/16/2023</li>
+            <li>Midland Cultural Center | Midland,ON </li>
+            <li>7:00pm-9:00pm</li>
+          </ul>
+        </a>
+        <a
+          className="text-decoration-none show-text "
+          href="https://www.facebook.com/EventHorizonHobbiesCA"
+        >
+          <ul className="center-list d-flex justify-content-between">
+            <li>05/26/2023</li>
+            <li>Event Horizon Hobbies | Midland,ON </li>
+            <li>7:00pm-9:00pm</li>
+          </ul>
+        </a>
+      </div>
     </Container>
   );
 }
