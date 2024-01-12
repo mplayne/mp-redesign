@@ -10,6 +10,7 @@ export default function UpcomingShows() {
   }, []);
   return (
     <Container className="upcoming-shows">
+      {/* 
       <Row>
         <Col>
           <h2
@@ -53,6 +54,7 @@ export default function UpcomingShows() {
           </ul>
         </a>
       </div>
+      */}
     </Container>
   );
 }
