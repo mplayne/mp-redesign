@@ -33,11 +33,6 @@ export default function Video() {
             </Button>
           </div>
         </Row>
-        <Row data-aos="fade-left" data-aos-duration="800" className="mt-2">
-          <div className="text-center mt-2">
-            Private Events | Bars & Restaurants | Weddings
-          </div>
-        </Row>
       </Container>
     </Container>
   );
