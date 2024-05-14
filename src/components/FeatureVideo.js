@@ -10,8 +10,8 @@ export default function Video() {
     AOS.init();
   }, []);
   return (
-    <Container>
-      <div className="video-container">
+    <div className="black-background">
+      <div className="video-container ">
         <iframe
           width="856"
           height="486"
@@ -33,7 +33,10 @@ export default function Video() {
             </Button>
           </div>
         </Row>
+        <Row>
+          <div></div>
+        </Row>
       </Container>
-    </Container>
+    </div>
   );
 }

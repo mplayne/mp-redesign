@@ -10,7 +10,6 @@ export default function UpcomingShows() {
   }, []);
   return (
     <Container className="upcoming-shows">
-      {/* 
       <Row>
         <Col>
           <h2
@@ -28,33 +27,22 @@ export default function UpcomingShows() {
           href="https://www.facebook.com/EventHorizonHobbiesCA"
         >
           <ul className="center-list d-flex justify-content-between">
-            <li>05/12/2023</li>
+            <li>01•17•2024</li>
             <li>Event Horizon Hobbies | Midland,ON </li>
-            <li>7:00pm-9:00pm</li>
+            <li>7:00pm</li>
           </ul>
         </a>
         <a
           className="text-decoration-none show-text "
-          href="https://www.midlandculturalcentre.com/events"
+          href="https://www.boathouseeatery.com/LiveMusic"
         >
           <ul className="center-list d-flex justify-content-between mt-3">
-            <li>05/16/2023</li>
-            <li>Midland Cultural Center | Midland,ON </li>
-            <li>7:00pm-9:00pm</li>
-          </ul>
-        </a>
-        <a
-          className="text-decoration-none show-text "
-          href="https://www.facebook.com/EventHorizonHobbiesCA"
-        >
-          <ul className="center-list d-flex justify-content-between">
-            <li>05/26/2023</li>
-            <li>Event Horizon Hobbies | Midland,ON </li>
-            <li>7:00pm-9:00pm</li>
+            <li>01•26•2024</li>
+            <li>Boathouse Eatery | Midland,ON </li>
+            <li>7:00pm</li>
           </ul>
         </a>
       </div>
-      */}
     </Container>
   );
 }

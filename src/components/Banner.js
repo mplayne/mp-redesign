@@ -1,15 +1,34 @@
-import { Container, Row, Col } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-
+import heroImg from "../img/promo1.jpg";
+import { Container } from "react-bootstrap";
 function Banner() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <Container className="banner-text">
-      <Row className="text-center m-2">
+    <Container>
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        class="d-flex justify-content-center "
+      >
+        <img
+          src={heroImg}
+          alt="logo"
+          width="100%"
+          style={{ borderRadius: "5%" }}
+        />
+      </div>
+    </Container>
+  );
+}
+
+export default Banner;
+
+/* 
+     <Row className="text-center m-2">
         <Col>
           <div data-aos="fade-down" data-aos-duration="3000">
             Canadian
@@ -23,8 +42,5 @@ function Banner() {
           </div>
         </Col>
       </Row>
-    </Container>
-  );
-}
 
-export default Banner;
+*/
