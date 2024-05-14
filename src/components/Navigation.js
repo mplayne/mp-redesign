@@ -19,35 +19,31 @@ export default function Navigation() {
 
   return (
     <div class="black-background">
-      <Row class="mb-3">
-        <div class="d-flex justify-content-center">
+      <Row>
+        <div class="">
           <a href="/" style={{ textDecoration: "none" }} class="logo-main">
             <h1 class="mt-4">Matt Playne</h1>
           </a>
         </div>
       </Row>
-      <div class="d-flex justify-content-center pb-2">
-        <Row>
-          <Col>
-            <a
-              href="/booking"
-              style={{ textDecoration: "none" }}
-              class="nav-hover"
-            >
-              Booking
-            </a>
-          </Col>
-          <Col>
-            <a
-              href="/contact"
-              style={{ textDecoration: "none" }}
-              class="nav-hover"
-            >
-              Contact
-            </a>
-          </Col>
-        </Row>
-      </div>
+      <Row>
+        <div class="d-flex justify-content-center pb-2 mt-4">
+          <a
+            href="/booking"
+            style={{ textDecoration: "none" }}
+            class="nav-hover"
+          >
+            Booking
+          </a>
+          <a
+            href="/contact"
+            style={{ textDecoration: "none" }}
+            class="nav-hover"
+          >
+            Contact
+          </a>
+        </div>
+      </Row>
     </div>
   );
 }

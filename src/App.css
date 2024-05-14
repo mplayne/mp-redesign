@@ -83,8 +83,9 @@ body {
   font-size: 16px !important;
   font-weight: 400 !important;
   letter-spacing: 4px;
-  display: inline-block;
+  text-align: center;
   position: relative;
+  margin: 0 10px;
 }
 
 .logo-main {
@@ -94,8 +95,7 @@ body {
   font-size: 18px !important;
   font-weight: 700 !important;
   letter-spacing: 6px;
-  display: inline-block;
-  position: relative;
+  text-align: center;
 }
 
 .logo-main:hover {
