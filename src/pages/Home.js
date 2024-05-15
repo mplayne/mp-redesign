@@ -11,7 +11,7 @@ import MccShow from "../components/MccShow";
 export default function Home() {
   return (
     <div>
-      <div className="mt-5">
+      <div>
         <Banner />
       </div>
       <div>

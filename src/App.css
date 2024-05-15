@@ -13,6 +13,7 @@ body {
   height: 100%;
   color: white !important;
   width: 100%;
+  background-color: black !important;
 }
 
 .white-background {
@@ -250,12 +251,24 @@ h3 {
   color: #3c5258 !important;
   cursor: pointer;
 }
-
 .video-container {
-  padding-top: 3em;
   display: flex;
-  justify-content: center;
+  justify-content: center !important;
+  align-items: center !important; /* Center vertically */
   overflow: hidden;
+  height: 30em;
+}
+
+.video {
+  /* You can keep these styles if needed */
+  display: flex;
+  align-self: center !important;
+  border-radius: 0%;
+  border: none !important;
+}
+
+#hero-img {
+  margin-bottom: 10px;
 }
 
 .shows-video-container {

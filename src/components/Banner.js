@@ -8,20 +8,9 @@ function Banner() {
     AOS.init();
   }, []);
   return (
-    <Container>
-      <div
-        data-aos="zoom-in"
-        data-aos-duration="2000"
-        class="d-flex justify-content-center "
-      >
-        <img
-          src={heroImg}
-          alt="logo"
-          width="100%"
-          style={{ borderRadius: "5%" }}
-        />
-      </div>
-    </Container>
+    <div data-aos="zoom-in" data-aos-duration="2000">
+      <img src={heroImg} alt="logo" width="100%" id="hero-img" />
+    </div>
   );
 }
 
