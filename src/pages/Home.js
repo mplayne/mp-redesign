@@ -18,7 +18,7 @@ export default function Home() {
         <FeatureVideo />
       </div>
 
-      <div id="upcoming-shows-section">
+      <div>
         <UpcomingShows />
       </div>
     </div>

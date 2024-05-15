@@ -169,10 +169,6 @@ body {
   opacity: 90%;
 }
 
-h2,
-h3 {
-  color: #233237;
-}
 .btn-reduce {
   border: none !important;
   background-color: #984b43 !important;
@@ -189,6 +185,81 @@ h3 {
   color: #233237 !important;
   font-family: "Poppins";
   font-weight: 400 !important;
+}
+
+.shows_container_one {
+  display: flex;
+  flex-direction: column; /* Ensures the h3 and ul are in a column layout */
+  align-items: center; /* Centers the ul horizontally */
+}
+
+.shows_container_two {
+  display: flex;
+  flex-direction: column; /* Ensures the h3 and ul are in a column layout */
+  align-items: center; /* Centers the ul horizontally */
+}
+
+.shows_container_three {
+  display: flex;
+  flex-direction: column; /* Ensures the h3 and ul are in a column layout */
+  align-items: center; /* Centers the ul horizontally */
+}
+
+.shows_col {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.shows_col-date {
+  width: 140px;
+  padding-right: 10px;
+}
+
+.shows_venue {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.shows_location {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.shows_location_link {
+  color: white;
+}
+
+.shows_time {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.date-location {
+  display: inline-flex;
+}
+
+.month {
+  text-align: center;
+}
+
+.venue {
+  display: flex;
+  justify-content: end;
+}
+
+.date {
+  display: flex;
+  justify-content: start;
+}
+
+.location {
+  display: flex;
+  justify-content: end;
+}
+
+.showtime {
+  display: flex;
+  justify-content: end;
 }
 
 .App {
@@ -294,7 +365,6 @@ h3 {
 }
 
 #upcoming-shows-section {
-  margin-top: 40px;
 }
 .drop-menu {
   background-color: transparent !important;
@@ -388,18 +458,41 @@ ul {
 
 #shows-section {
   margin-top: 80px;
+  background-color: black;
 }
 
 .upcoming-shows {
-  padding-top: 6em !important;
-  margin-bottom: 6em !important;
+  border: solid white;
+  width: 100%;
 }
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+  /* Add additional styling as needed */
+}
+
+.shows_list-item {
+  display: table;
+}
+
 .shows-banner {
   font-family: poppins, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 40px;
+  color: white;
+  margin-top: 16px;
+  margin-left: 8px;
+}
+.shows-sub-banner {
+  font-family: poppins, sans-serif;
+  font-size: small;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 12px;
 }
 .center-list {
   font-family: "Vollkorn", serif;
