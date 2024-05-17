@@ -10,30 +10,37 @@ export default function Video() {
     AOS.init();
   }, []);
   return (
-    <Container>
-      <div className="video-container">
+    <div className="white-background">
+      <div className="video-container ">
         <iframe
-          width="856"
-          height="486"
+          width="100%"
+          height="100%"
           src="https://www.youtube.com/embed/GN-BfRMJGLU"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+          className="video"
         ></iframe>
       </div>
-      <Container className="booking-btn-container">
-        <Row>
-          <div className="mt-2 d-flex justify-content-center">
-            <Button
-              className="btn-lg  booking-btn rounded-pill "
-              href="/booking"
-            >
-              <b>Book Live Music</b>
-            </Button>
-          </div>
-        </Row>
-      </Container>
-    </Container>
+    </div>
   );
 }
+/*
+
+<Row>
+<div className="mt-2 d-flex justify-content-center">
+  <Button
+    className="btn-lg  booking-btn rounded-pill "
+    href="/booking"
+  >
+    <b>Book Live Music</b>
+  </Button>
+</div>
+</Row>
+ <Container className="booking-btn-container">
+        <Row>
+          <div></div>
+        </Row>
+      </Container>
+*/

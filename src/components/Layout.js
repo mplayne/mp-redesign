@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navigation />
-      <div className="booking-container"> {children}</div>
+      <div>{children}</div>
       <Footer />
     </>
   );
